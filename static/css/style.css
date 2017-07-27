@@ -12,7 +12,9 @@ html,body{
     border-bottom: 1px solid #eee;
 }
 
-.posts{}
+.posts{
+    margin-bottom: 10px;
+}
 
 .post-item{
     padding: 20px 0;
