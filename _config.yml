@@ -1,0 +1,44 @@
+# ====config 设置====
+# 依赖组件
+plugins: [jekyll-paginate]
+
+# 本地服务器 
+host: 0.0.0.0
+port: 4001
+
+# 时区
+timezone: Asia/Shanghai
+
+# markdown语法
+markdown: kramdown
+highlighter: rouge
+
+# 根目录设置
+# 如果是根目录, 不要填写'/', 直接留空就行
+# 如果是非根目录访问, 如http://abc.com/blog, 此处填写'/blog'
+baseurl:
+
+# 分页设置
+paginate: 10
+
+# 分页形式
+paginate_path: "page:num"
+
+# 链接形式
+permalink: /:year/:month/:day/:title.html
+
+
+# ====site info 站点信息====
+# 站点地址：用于本站链接及生成sitemap使用
+# 例：http://example.com
+website: http://article.fridaycoder.com
+
+# 标题: 在底部版权位置显示，以及页面meta标签（SEO）
+title: 文章 - 周五的程序员
+
+# 站点描述和关键词 仅作用于页面meta标签使用(SEO)
+description: 周五的程序员
+keywords: 周五的程序员
+
+# 备案信息
+miibeian: 京ICP备1234567890号-1

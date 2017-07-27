@@ -1,0 +1,66 @@
+html,body{
+    font-size: 20px;
+    color: #333;
+}
+.wrap{
+    margin: 0 auto;
+    width: 940px;
+}
+
+.header{
+    height: 40px;
+    border-bottom: 1px solid #eee;
+}
+
+.posts{}
+
+.post-item{
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.post-item .post-title{
+    margin: 0;
+    font-size: inherit;
+}
+.post-item .post-title a{
+    font-size: 24px;
+    font-weight: 300;
+    color: #333;
+    text-decoration: none;
+}
+.post-item .post-title a:visited{
+    color: #999;
+}
+.post-item .post-title a:hover,
+.post-item .post-title a:active{
+    color: #c00;
+}
+
+.post-item .post-desc{
+    font-weight: 300;
+    font-size: 16px;
+    color: #999;
+}
+
+.post-item .post-excerpt{
+    font-size: 16px;
+    color: #999;
+}
+
+.footer{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #ccc;
+}
+.footer p{
+    margin: 10px 0;
+}
+.footer a,
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
+    color: #ccc;
+    text-decoration: none;
+}

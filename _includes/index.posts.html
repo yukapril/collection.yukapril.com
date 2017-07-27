@@ -1,0 +1,37 @@
+<section class="posts">
+    <div class="wrap">
+    {% for post in paginator.posts %}
+    <article class="post-item">
+        <h1 class="post-title">
+            {% if post.link != nil %}
+            <a href="{{ post.link }}" target="_blank">{{ post.title }}</a> {% else %}
+            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a> {% endif %}
+        </h1>
+        <h2 class="post-desc">
+            <time datetime="{{ post.date | date: '%F' }}">
+                <span class="time1">{{ post.date | date: '%d' }}</span>
+                <span class="time2">{{ post.date | date: '%b.%Y' }}</span>
+            </time>
+        </h2>
+        <div class="post-excerpt">{{ post.excerpt | excerpt_separator:""| strip_html }}</div>
+    </article>
+    {% endfor %}
+    </div>
+</section>
+
+{% if paginator.total_pages > 1 %}
+<section class="g-pagination f-w960 f-tac f-cf">
+    {% if paginator.previous_page %}
+    <a class="f-dib pre" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+        <span>&lt;</span>
+    </a> {% else %}
+    <span class="f-dib pre"><span>&lt;</span></span>
+    {% endif %}
+    <span class="f-dib mid">PAGE {{paginator.page}} OF {{paginator.total_pages}}</span> {% if paginator.next_page %}
+    <a class="f-dib next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+        <span>&gt;</span>
+    </a> {% else %}
+    <span class="f-dib next"><span>&gt;</span></span>
+    {% endif %}
+</section>
+{% endif %}
