@@ -19,7 +19,7 @@ highlighter: rouge
 baseurl:
 
 # 分页设置
-paginate: 10
+paginate: 20
 
 # 分页形式
 paginate_path: "page:num"
@@ -41,4 +41,4 @@ description: 周五的程序员
 keywords: 周五的程序员
 
 # 备案信息
-miibeian: 京ICP备1234567890号-1
+miibeian: 
