@@ -31,14 +31,14 @@ permalink: /:year/:month/:day/:title.html
 # ====site info 站点信息====
 # 站点地址：用于本站链接及生成sitemap使用
 # 例：http://example.com
-website: http://article.fridaycoder.com
+website: http://collection.yukapril.com
 
 # 标题: 在底部版权位置显示，以及页面meta标签（SEO）
-title: 文章 - 周五的程序员
+title: 文章 - YUKAPRIL
 
 # 站点描述和关键词 仅作用于页面meta标签使用(SEO)
-description: 周五的程序员
-keywords: 周五的程序员
+description: YUKAPRIL 文章收集
+keywords: YUKAPRIL 文章 收集
 
 # 备案信息
-miibeian: 
+miibeian: 京ICP备15045677号-1
