@@ -34,11 +34,11 @@ permalink: /:year/:month/:day/:title.html
 website: http://collection.yukapril.com
 
 # 标题: 在底部版权位置显示，以及页面meta标签（SEO）
-title: 文章 - YUKAPRIL
+title: 收藏集 - YUKAPRIL
 
 # 站点描述和关键词 仅作用于页面meta标签使用(SEO)
 description: YUKAPRIL 文章收集
-keywords: YUKAPRIL 文章 收集
+keywords: YUKAPRIL 文章 收集 收藏集
 
 # 备案信息
 miibeian: 京ICP备15045677号-1
