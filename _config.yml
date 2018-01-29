@@ -18,7 +18,7 @@ markdown: kramdown
 baseurl:
 
 # 分页设置
-paginate: 5
+paginate: 20
 
 # 分页形式
 paginate_path: "page:num"
