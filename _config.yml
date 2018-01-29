@@ -11,7 +11,6 @@ timezone: Asia/Shanghai
 
 # markdown语法
 markdown: kramdown
-highlighter: rouge
 
 # 根目录设置
 # 如果是根目录, 不要填写'/', 直接留空就行
@@ -19,7 +18,7 @@ highlighter: rouge
 baseurl:
 
 # 分页设置
-paginate: 20
+paginate: 5
 
 # 分页形式
 paginate_path: "page:num"
